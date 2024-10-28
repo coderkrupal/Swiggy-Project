@@ -1,234 +1,376 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
 }
 
- .main_container_part1{
-    width: 100%;
-    height: 115vh;
-    background-color: rgb(245, 76, 14);
-   background-image: url("https://wallpapercave.com/wp/wp6532229.jpg");
-   background-repeat: no-repeat; 
-   background-position: center;
-   background-size: cover; 
-
-  
-}
- 
-   .navbar_part1{
-    width: 100%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   }
-  .navbar_part1 .swiggy_logo img{ 
-      width: 100px;
-      height: 80px;
-      border-radius: 10px;
-      margin-left: 20px;
-      margin-top: 20px;
-}
-
-.navbar_part1 a{
-    text-decoration: none;
-    font-weight: 18px;
-    color: white;
-    font-weight: 400px;
-    margin: 50px;
-  text-transform: capitalize;
-} 
-
- .gettheapp{
-    border: 1px solid white;
-    padding: 10px;
- }
-
- .signin{
-    border: 1px solid white;
-    padding: 10px;
- }
-
-
- .inside_main_part{
-    width: 60%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left:250px;
-    margin-top: 40px;
- }
-
-  .sigy_text p{
-   text-align: center;
-     font-size:40px;
-     text-transform: capitalize;
-     color: white;
-     font-weight:1000;
-     word-spacing: 5px;
-  } 
-   
-
-      .swigy_search{
-         margin-top: 20px;
-           margin-left:80px;
-}
-
-   .swigy_search #input1{
-         width: 250px;
-         height: 50px;
-         border-radius: 10px;
-         border: none;
-         margin-right: 20px;
-         text-transform:capitalize;
-         text-align: center;
-   }
-
-   .swigy_search #input2{
-      width: 350px;
-      height: 50px;
-      border-radius: 10px;
-      border: none;
-      text-transform:capitalize;
-      text-align: center;
-}
-
- .swigy_card_part{
+.main_container_part1 {
    width: 100%;
-   height:50%;
+   height: 115vh;
+   background-color: rgb(245, 76, 14);
+   background-image: url("https://wallpapercave.com/wp/wp6532229.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+
+}
+
+.navbar_part1 {
+   width: 100%;
+   height: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar_part1 .swiggy_logo img {
+   width: 100px;
+   height: 80px;
+   border-radius: 10px;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.navbar_part1 a {
+   text-decoration: none;
+   font-weight: 18px;
+   color: white;
+   font-weight: 400px;
+   margin: 50px;
+   text-transform: capitalize;
+}
+
+.gettheapp {
+   border: 1px solid white;
+   padding: 10px;
+}
+
+.signin {
+   border: 1px solid white;
+   padding: 10px;
+}
+
+
+.inside_main_part {
+   width: 60%;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 250px;
+   margin-top: 40px;
+}
+
+.sigy_text p {
+   text-align: center;
+   font-size: 40px;
+   text-transform: capitalize;
+   color: white;
+   font-weight: 1000;
+   word-spacing: 5px;
+}
+
+
+.swigy_search {
+   margin-top: 20px;
+   margin-left: 80px;
+}
+
+.swigy_search #input1 {
+   width: 250px;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   margin-right: 20px;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.swigy_search #input2 {
+   width: 350px;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.swigy_card_part {
+   width: 100%;
+   height: 50%;
    margin-top: 30px;
- }
+}
 
-  .swigy_card_header p{
-        font-size: 25px;
-        text-transform: capitalize;
-        font-weight: 900;
-         margin-left: 40px;
-         margin-top: 50px;
-  }
+.swigy_card_header p {
+   font-size: 25px;
+   text-transform: capitalize;
+   font-weight: 900;
+   margin-left: 40px;
+   margin-top: 50px;
+}
 
-  .swigy_main_card{
-      width: 100%;
-      height: 100%;
-      display: grid;
-      grid-template-columns: repeat(5,1fr);
+.swigy_main_card {
+   width: 100%;
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
 
-  }
+}
 
-  .swigy_card1{
-       width: 20%;
-       height:150px;
-    
-  }
+.swigy_card1 {
+   width: 20%;
+   height: 150px;
 
-  .swigy_card1 img{
+}
+
+.swigy_card1 img {
    width: 150px;
-   height:150px;
+   height: 150px;
    margin-left: 30px;
-  }
+}
 
 
-  .swigy_card2{
+.swigy_card2 {
    width: 20%;
-    height: 150px;
+   height: 150px;
 }
 
-.swigy_card2 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card2 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
 
-.swigy_card3{
+.swigy_card3 {
    width: 20%;
-   height:150px;
-   
+   height: 150px;
+
 }
 
-.swigy_card3 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card3 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
 
 
-.swigy_card4{
+.swigy_card4 {
    width: 20%;
-   height:150px;
- 
+   height: 150px;
+
 }
 
-.swigy_card4 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card4 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
-.swigy_card5{
+.swigy_card5 {
    width: 20%;
-   height:150px;
-  
+   height: 150px;
+
 }
 
-.swigy_card5 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card5 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
-.swigy_card7{
+.swigy_card7 {
    width: 20%;
-   height:150px;
- 
+   height: 150px;
+
 }
 
-.swigy_card7 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card7 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
 
-.swigy_card8{
+.swigy_card8 {
    width: 20%;
-   height:150px;
- 
+   height: 150px;
+
 }
 
-.swigy_card8 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card8 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
-.swigy_card9{
+.swigy_card9 {
    width: 20%;
-   height:150px;
-  
+   height: 150px;
+
 }
 
-.swigy_card9 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card9 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
 }
 
-.swigy_card10{
+.swigy_card10 {
    width: 20%;
-   height:150px;
- 
+   height: 150px;
+
 }
 
-.swigy_card10 img{
-width: 150px;
-height:150px;
-margin-left: 30px;
+.swigy_card10 img {
+   width: 150px;
+   height: 150px;
+   margin-left: 30px;
+}
+
+/* card part 2 start here */
+
+.swigy_card_part_2 {
+   width: 100%;
+   height: 50%;
+}
+
+.swigy_part2_header p {
+   font-size: 25px;
+   text-transform: capitalize;
+   font-weight: 900;
+   margin-left: 40px;
+   margin-top: 50px;
 }
 
 
+.swigy_part2_all_card {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-left: 50px;
+   margin-top: 25px;
+}
 
- 
+.swigy_Part_2_card_1 {
+   width: 350px;
+   height: 420px;
+}
+
+.swigy_part_2_img img {
+   width: 100%;
+   height: 200px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+.swigy_part2_text {
+   display: flex;
+   justify-content: space-between;
+}
+
+.swigy_part2_text p {
+   font-size: 15px;
+   text-transform: capitalize;
+   margin-top: 10px;
+   font-weight: 400;
+   color: rgb(75, 73, 73);
+}
+
+.text1 {
+   margin-left: 15px
+}
+
+.text2 {
+   margin-right: 15px;
+}
+
+.swigy_part2_text2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.swigy_part2_text2 p {
+   font-size: 15px;
+   text-transform: capitalize;
+   margin-top: 5px;
+   font-weight: 400;
+   color: rgb(75, 73, 73);
+}
+
+.text3 {
+   margin-left: 10px;
+}
+
+
+.text4 {
+   margin-right: 25px;
+}
+
+.swigy_button #button {
+   width: 150px;
+   height: 30px;
+   border-radius: 50px;
+   border: none;
+   margin-top: 10px;
+   margin-left: 15px;
+
+}
+
+.swigy_button a {
+   text-decoration: none;
+   font-size: 12px;
+   font-weight: 500;
+   text-transform: capitalize;
+   color: rgb(75, 73, 73);
+}
+
+.swigy_discount_button #button2 {
+   width: 95%;
+   height: 40px;
+   background-color: rgba(21, 152, 21, 0.9);
+   border-radius: 10px;
+   margin-top: 15px;
+   margin-left: 10px;
+}
+
+#button2 a {
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 14px;
+   color: white;
+   font-weight: 900;
+   text-decoration: none;
+}
+
+.swigy_discount_button2 #button3 {
+   width: 95%;
+   height: 40px;
+   background-color: rgba(128, 238, 128, 0.9);
+   border-radius: 10px;
+   margin-left: 10px;
+   margin-top: 15px;
+}
+
+
+#button3 a {
+   text-transform: capitalize;
+   font-size: 14px;
+   color: white;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+
+.swigy_Part_2_card_2 {
+   width: 350px;
+   height: 420px;
+}
+
+.swigy_Part_2_card_3 {
+   width: 350px;
+   height: 420px;
+}
+
+/* card part 2 end  here */
